@@ -1,0 +1,101 @@
+:root{
+    --blue : #1566C0;
+}
+
+/* body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    overflow: auto; 
+    
+} */
+
+.contenitoreheader{
+    width: 100%;
+    height: 45vh;
+    background-image:url('/header.jpg');
+    position:relative;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    
+}
+
+.contenutoheader{
+    position:absolute;
+    top:25%;
+    right: 49%;
+    text-align: center;
+}
+
+.contenutoheader h1,h3{
+    color: white;
+}
+
+.background-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* width: 100%; */
+    /* height: 100px; Altezza dell'onda */
+    background: url('onda1.svg') repeat-x; /* Immagine SVG dell'onda */
+    background-size: contain;
+    background-position-y:0%;
+    
+    width: 200%; /* Duplica la larghezza per coprire sia a destra che a sinistra */
+    height: 40px;
+    
+    /* background-repeat: repeat-x;  */
+    /* Ripeti orizzontalmente */
+    /* transform: scaleY(-1);  */
+    /*Capovolgi l'onda*/
+}
+/* fine header */
+
+.container2{
+    width: 50%;
+    margin-left: 25vw;
+    text-align: center;
+   
+}
+.container2 h2{
+   
+    color: var(--blue);
+  
+}
+
+
+/* 4card */
+.container3{
+    display: flex;
+    /* background-color: blue; */
+    width: 100%;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: space-around;
+
+
+}
+.container3 .card{
+    background: url('/header.jpg') ;
+    width: 15%;
+    background-size: cover;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 25px;
+    position: relative;
+}
+.icon{
+    position: absolute;
+    /* padding: 5px; */
+    color: white;
+    top:10%;
+    margin-left: 1vw;
+}
+.container3 .inside{
+    position: relative;
+    color: white;
+    top: 5vh;
+    margin-left: 1vw;
+}
