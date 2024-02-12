@@ -19,19 +19,35 @@
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
     
 }
 
 .contenutoheader{
     
-    top:25%;
-    right: 49%;
     text-align: center;
     padding: 5px;
+
+    
+}
+.divflex{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 130px; /* Imposta la larghezza del box in base al contenuto */
+    height: auto; /* Imposta l'altezza del box in base al contenuto */
+    border: 2px solid black; /* Esempio: Aggiunge un bordo per visualizzare il box */
+    padding: 10px;
+    left: 50%;
+    
+ 
 }
 
 .contenutoheader h1,h3{
     color: white;
+   
 }
 
 .background-wave {
